@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>YouTube</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #fff;
+      color: #000;
+    }
+    .navbar {
+      display: flex;
+      align-items: center;
+      padding: 10px 20px;
+      border-bottom: 1px solid #ddd;
+    }
+    .navbar input[type="text"] {
+      margin-left: 20px;
+      padding: 8px;
+      width: 400px;
+      border: 1px solid #ccc;
+      border-radius: 20px;
+    }
+    .sidebar {
+      width: 200px;
+      position: fixed;
+      top: 60px;
+      left: 0;
+      bottom: 0;
+      border-right: 1px solid #eee;
+      padding: 20px;
+      background-color: #fff;
+    }
+    .sidebar a {
+      display: block;
+      padding: 10px 0;
+      color: black;
+      text-decoration: none;
+    }
+    .main {
+      margin-left: 220px;
+      padding: 100px 40px;
+      text-align: center;
+    }
+    .main h2 {
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+    .main p {
+      font-size: 16px;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="navbar">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/4/42/YouTube_icon_%282013-2017%29.png" alt="YouTube Logo" width="40">
+    <span style="margin-left: 10px; font-size: 24px;"></span>  
+    <strong>YouTube</strong>
+    <input type="text" placeholder="Search">
+    <i class="fa-solid fa-microphone"></i>
+    
+
+  </div>
+
+  <div class="sidebar">
+    <a href="#"><i class="fa-solid fa-house"></i>Home</a>
+    <a href="#"> Shorts</a>
+    <a href="#"><i class="fa-solid fa-bell"></i>Subscriptions</a>
+    <a href="#"><i class="fa-solid fa-circle-user"></i>You</a>
+    <a href="#"> History</a>
+  </div>
+
+  <div class="main">
+    <h2>Try searching to get started</h2>
+    <p>Start watching videos to help us build a feed of videos you'll love.</p>
+  </div>
+
+</body>
+</html>

@@ -1,0 +1,106 @@
+<!-- Create a full semantic Html structure for newsWebsite page  having site title and navbar bar at the top,a main section with 2 news articles,a sidebar section with trending topics and a footer with social media links  -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        nav {
+            background-color: #0b0b0b;
+            color: white;
+            padding: 1rem;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+    
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 1rem;
+            color: white;
+            gap: 10px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            gap:10px;
+        }
+         nav ul li a:hover {
+            text-decoration: underline;
+            color: #0b0b0b;
+        }
+        .navbar {
+            background-color: #f4f4f4;
+            padding: 1rem;
+        }
+        .sidebar {
+            background-color: #fcf8f8;
+            padding: 1rem;
+            width: 200px;
+            height: 100vh;
+            float: right;
+        }
+        .sidebar li a{
+            color: #000;
+        }
+        main {
+            margin-right: 220px;
+            padding: 1rem;
+        }
+        footer {
+            background-color: #090909;
+            color: white;
+            text-align: center;
+            padding: 2rem;
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <h1>News</h1>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+    <!-- <div class="navbar">
+        <h1>NewsWeb</h1>
+        <input type="text" placeholder="Search...">
+    </div> -->
+    <div class="sidebar">
+        <h2>Trending Topics</h2>
+        <ul>
+            <li><a href="#">Topic 1</a></li>
+            <li><a href="#">Topic 2</a></li>
+            <li><a href="#">Topic 3</a></li>
+        </ul>
+    </div>
+    <main>
+        <article>
+            <h2>Article 1</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </article>
+        <article>
+            <h2>Article 2</h2>
+            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </article>
+    </main>
+    <footer>
+        <h2>Follow Us</h2>
+        <ul>
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Twitter</a></li>
+            <li><a href="#">Instagram</a></li>
+        </ul>
+    </footer>
+</body>
+</html>
