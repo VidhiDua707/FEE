@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>a form for user registration</title>
+</head>
+<body>
+    <form>
+    <label for="fullname">Full Name:</label><br>
+    <input type="text" id="fullname" name="fullname" required><br><br>
+
+    <label for="regemail">Email:</label><br>
+    <input type="email" id="regemail" name="regemail" required><br><br>
+
+    <label for="regpassword">Password:</label><br>
+    <input type="password" id="regpassword" name="regpassword" minlength="8" required><br><br>
+
+    <label for="confirmpassword">Confirm Password:</label><br>
+    <input type="password" id="confirmpassword" name="confirmpassword" minlength="8" required><br><br>
+
+    <label for="age">Age:</label><br>
+    <input type="number" id="age" name="age" min="18" max="99" required><br><br>
+
+    <label>
+        <input type="checkbox" name="terms" required> I accept the Terms and Conditions
+    </label><br><br>
+
+    <button type="submit">Register</button>
+</form>
+
+</body>
+</html>
